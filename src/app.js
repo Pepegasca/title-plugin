@@ -123,18 +123,9 @@ OO.plugin('title-plugin', function(OO, _, $, W){
     /**
      * Hide the title element and erase its text
      */
-    hideWatermark: function() {
+    hideTitle: function() {
       this.toasterTab.text('');
       this.toasterTab.hide();
-    },
-
-    /**
-     * Randomly select a new position of watermar
-     */
-    setPosition: function() {
-      this.currentIdx = idx;
-      this.toasterTab.css('top',this.topPos);
-      this.toasterTab.css('left',this.leftPos);
     },
 
     /**
@@ -197,7 +188,7 @@ OO.plugin('title-plugin', function(OO, _, $, W){
     },
 
     /**
-     * Wrapper to watermark Events Manager
+     * Wrapper to title Events Manager
      */
     doTitleFetch: function() {
       this.titleEvents.doFetch();
