@@ -1,5 +1,5 @@
-# Plugin Title from Carbyne Search
-Plugin to fetch the title from Carbyne Search by using the embed code and display it on the player.
+# Plugin Title from API
+Plugin to fetch the title from API by using the embed code and display it on the player.
 
 ## Build
 Steps to build
